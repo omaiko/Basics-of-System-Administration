@@ -1,0 +1,3 @@
+sudo tail -f /var/log/syslog &
+# ^Before running the command (adding "&" to the command)
+#After starting a command, you can press Ctrl+Z to suspend it, and then "bg" to put it in the background

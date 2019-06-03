@@ -1,0 +1,10 @@
+#!/bin/bash
+
+LOG_FILE=/var/log/update_script.log
+sudo touch $LOG_FILE 
+sudo chmod 777 $LOG_FILE
+sudo apt-get update >> $LOG_FILE
+sudo apt-get upgrade >> $LOG_FILE
+
+#crontab -e
+#add in file "0 4 * * 5 sh ~/02"

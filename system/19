@@ -1,0 +1,3 @@
+sudo iptables -P INPUT DROP
+sudo iptables -P OUTPUT DROP
+#https://unix.stackexchange.com/questions/11851/iptables-allow-certain-ips-and-block-all-other-connection

@@ -1,0 +1,7 @@
+sudo kill
+#usage
+#kill pid
+#Replace PID with the process ID of the job. If that fails, enter the following:
+#kill -KILL PID
+#also you can use:
+# kill %<job number>

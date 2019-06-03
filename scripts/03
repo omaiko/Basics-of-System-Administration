@@ -1,0 +1,1 @@
+sudo ls -sh $1/* | sort -h

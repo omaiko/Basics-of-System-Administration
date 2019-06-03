@@ -1,0 +1,4 @@
+~/.ssh/id_rsa
+#create a RSA key through "ssh-keygen"
+#also you have second file ~/.ssh.id_rsa.pub : The associated public key
+#(~/.ssh/id_rsa : The private key)

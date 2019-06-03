@@ -1,0 +1,4 @@
+/etc/resolv.conf
+-----
+The file resolv.conf typically contains a list of IP addresses of nameservers available for resolution.
+resolv.conf is usually located in the /etc directory of the file system. The file is either maintained manually, or when DHCP is used, it is usually updated with the utility resolvconf.

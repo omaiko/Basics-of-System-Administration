@@ -1,0 +1,7 @@
+Amazon
+----------
+-nslookup slash.org
+-get ip
+-whois "ip" | grep 'OrgName' | awk '{print $2}'
+Alternative variant:
+Go to https://ipinfo.io/ or smth similar.
